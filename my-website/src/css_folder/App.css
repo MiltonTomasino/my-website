@@ -42,7 +42,8 @@ header h1{
 
 .navBar{
   display: flex;
-  background-color: #ccddff;
+  /* background-color: #ccddff; */
+  background-color: #66b3ff;
   border-bottom: 2px solid black;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   font-size: 1.2rem;
@@ -64,9 +65,23 @@ header h1{
   box-shadow: 5px 10px black;
 }
 
+.logo h1:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 5px 10px white;
+}
+
 .navbar-menu{
   display: flex;
   list-style: none;
   gap: 30px;
   align-items: center;
+}
+
+.navbar-menu a{
+  padding: 25px 5px;
+}
+
+.navbar-menu a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
 }
